@@ -7,7 +7,7 @@ function check () {
     
     else if (yourName.length<=2) {
         alert("your name is too short");
-    } else if (Number(yourName)) {
+    } else if (!isNaN(yourName)) {
         alert("numbers are not allowed!!");
     } 
     else if (crushName=="") {
@@ -16,7 +16,7 @@ function check () {
     
     else if (crushName.length<=2) {
         alert("love name is too short");
-    } else if (Number(crushName)) {
+    } else if (!isNaN(crushName)) {
         alert("numbers are not allowed!!");
     } 
 
