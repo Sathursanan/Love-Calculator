@@ -24,7 +24,7 @@ function check () {
     var lovedata = Math.random()*100;
     lovedata = Math.floor(lovedata);
     }
-    var resultText = yourName + "❤️" + crushName + "=" + lovedata + "% match ";
+    // var resultText = yourName + "❤️" + crushName + "=" + lovedata + "% match ";
     document.getElementById("final").innerHTML = lovedata + "%";
 
     
